@@ -32,12 +32,11 @@ public class RecuperacionService {
     }
 
     private Map<TopicPartition, Long> cargarUltimoOffset() {
-        // Recupera los offsets desde la base de datos
         return new HashMap<>();
     }
 
     private void guardarOffset(String topic, int partition, long offset) {
-        // Guarda el offset en la base de datos
+
     }
     public void iniciarProcesamientoUnaVez() {
         consumer.subscribe(Arrays.asList("datos-entrenamiento"));
@@ -52,6 +51,7 @@ public class RecuperacionService {
         }
     }
     private void procesarRecord(ConsumerRecord<String, String> record) {
-        // Lógica de procesamiento
+        System.out.printf("Procesando record: key=%s, value=%s, topic=%s, partition=%d, offset=%d%n",
+                record.key(), record.value(), record.topic(), record.partition(), record.offset());
     }
 }
