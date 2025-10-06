@@ -1,8 +1,0 @@
-com/gym/members_microservice/controller/MiembroController.class
-com/gym/members_microservice/config/SecurityConfig.class
-com/gym/members_microservice/DemoApplication.class
-com/gym/members_microservice/service/MiembroServiceImpl.class
-com/gym/members_microservice/respository/MiembroRepository.class
-com/gym/members_microservice/model/Miembro$MiembroBuilder.class
-com/gym/members_microservice/service/MiembroService.class
-com/gym/members_microservice/model/Miembro.class

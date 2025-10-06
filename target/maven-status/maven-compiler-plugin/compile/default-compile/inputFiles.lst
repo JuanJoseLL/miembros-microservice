@@ -1,7 +1,0 @@
-/home/juan/uni/microservicios/members-microservice/src/main/java/com/gym/members_microservice/DemoApplication.java
-/home/juan/uni/microservicios/members-microservice/src/main/java/com/gym/members_microservice/config/SecurityConfig.java
-/home/juan/uni/microservicios/members-microservice/src/main/java/com/gym/members_microservice/controller/MiembroController.java
-/home/juan/uni/microservicios/members-microservice/src/main/java/com/gym/members_microservice/model/Miembro.java
-/home/juan/uni/microservicios/members-microservice/src/main/java/com/gym/members_microservice/respository/MiembroRepository.java
-/home/juan/uni/microservicios/members-microservice/src/main/java/com/gym/members_microservice/service/MiembroService.java
-/home/juan/uni/microservicios/members-microservice/src/main/java/com/gym/members_microservice/service/MiembroServiceImpl.java
