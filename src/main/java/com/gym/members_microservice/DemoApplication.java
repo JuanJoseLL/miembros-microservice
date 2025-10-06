@@ -3,12 +3,14 @@ package com.gym.members_microservice;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.annotation.Bean;
 
 import com.gym.members_microservice.model.Miembro;
 import com.gym.members_microservice.service.MiembroService;
 
 @SpringBootApplication
+@EnableDiscoveryClient
 public class DemoApplication {
 
 	public static void main(String[] args) {
